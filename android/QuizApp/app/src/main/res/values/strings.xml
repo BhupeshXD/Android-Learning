@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="questions1_A">World Whole Web</string>
+    <string name="questions1_B">Wide World Web</string>
+    <string name="questions1_C">Web World Wide</string>
+    <string name="questions1_D">World Wide Web</string>
+    <string name="answers_1">World Wide Web</string>
+    <string name="questions1">WWW stands for ?</string>
+
+    <string name="score">Score 0/8</string>
+
+    <string name="question_number">1/8 Questions</string>
+
+    <string name="questions2">--------- is the father of computer.</string>
+    <string name="questions2_A">Herman Hollerith</string>
+    <string name="questions2_B">Ada Byron</string>
+    <string name="questions2_C">Blaise Pascal</string>
+    <string name="questions2_D">Charles Babbage</string>
+    <string name="answers_2">Charles Babbage</string>
+
+    <string name="questions3">A desktop computer is also known as ?</string>
+    <string name="questions3_A">PC</string>
+    <string name="questions3_B">Laptop</string>
+    <string name="questions3_C">Mainframe</string>
+    <string name="questions3_D">Palmtop</string>
+    <string name="answers_3">PC</string>
+
+    <string name="questions4">----------- is the physical device of a computer system.</string>
+    <string name="questions4_A">Program</string>
+    <string name="questions4_B">Software</string>
+    <string name="questions4_C">Hardware</string>
+    <string name="questions4_D">Application</string>
+    <string name="answers_4">Hardware</string>
+
+    <string name="questions5">IC stands for?</string>
+    <string name="questions5_A">Internal Circuit</string>
+    <string name="questions5_B">Internal Computer</string>
+    <string name="questions5_C">Integrated Computer</string>
+    <string name="questions5_D">Integrated Circuit</string>
+    <string name="answers_5">Integrated Circuit</string>
+
+    <string name="questions6">----------- processing is used in mainframe computer.</string>
+    <string name="questions6_A">Parallel</string>
+    <string name="questions6_B">Batch</string>
+    <string name="questions6_C">Serial</string>
+    <string name="questions6_D">Toggle</string>
+    <string name="answers_6">Batch</string>
+
+    <string name="questions7">Digital computers use a --------- system to encode data and programs.</string>
+    <string name="questions7_A">ram</string>
+    <string name="questions7_B">rom</string>
+    <string name="questions7_C">binary</string>
+    <string name="questions7_D">decimal</string>
+    <string name="answers_7">binary</string>
+
+    <string name="questions8">Personal computer is a --------</string>
+    <string name="questions8_A">Mini computer</string>
+    <string name="questions8_B">Super computer</string>
+    <string name="questions8_C">Micro computer</string>
+    <string name="questions8_D">Mainframe computer</string>
+    <string name="answers_8">Micro computer</string>
+    <string name="selectedoption">SelectedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+
+
+</resources>

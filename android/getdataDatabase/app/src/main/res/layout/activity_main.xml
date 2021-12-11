@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#AED6F1">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Employee Details"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="Employee Name" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Employee Number"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id ="@+id/ed2"
+        android:layout_below="@+id/ed1"
+        />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Employee Department" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed3"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="SAVE DATA" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="RETRIEVE DATA" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Employee Name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Number"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Department"
+        android:textSize="20sp"
+        android:id="@+id/tv4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
